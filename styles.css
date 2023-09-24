@@ -17,7 +17,7 @@ li, a, button {
 
 header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     padding: 30px 10%;
 }
