@@ -27,11 +27,11 @@ header {
 }
 
 .nav__links li {
-    list-style:none;
+    list-style: none;
 }
 
 .nav__links li a {
-        display:inline-block;
+        display: inline-block;
         padding: 0px 20px;
 }
 
