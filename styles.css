@@ -12,7 +12,7 @@ li, a, button {
     font-weight: 500;
     font-size: 16px;
     color: #edf0f1;
-    text-decoration: none;
+    text-decoration: underline goldenrod;
 }
 
 header {
@@ -28,7 +28,6 @@ header {
 
 .nav__links {
     list-style: none;
-    position: relative;
 }
 
 .nav__links li {
@@ -42,24 +41,6 @@ header {
 
 .nav__links li a:hover {
     color: #EEC366
-}
-
-.nav__link::after {
-    content: '';
-    height: 4px;
-    width: 100%;
-    background :rgb (0, 183, 255,);
-    display: block;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    opacity: 0px;
-    transition: all 0.2s;
-    pointer-events: none;
-}
-
-.nav__link:hover::after {
-opacity: 1;
 }
 
 button {
