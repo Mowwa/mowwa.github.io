@@ -48,6 +48,6 @@ button {
 }
 
 button:hover {
-    background-color: rgba(217, 164, 94, 1);
+    background-color: rgb(190, 136, 65, 0.8);
 
 }
