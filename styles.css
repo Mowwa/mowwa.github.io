@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Vollkorn:wght@500&display=swap');
 
 * {
     box-sizing: border-box;
@@ -8,7 +8,7 @@
 }
 
 li, a, button {
-    font-family: "Vollkorn", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #edf0f1;
