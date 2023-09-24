@@ -22,9 +22,13 @@ header {
     padding: 30px 10%;
 }
 
+.parent {
+    display:flex;
+}
+
 .logo {
     cursor: pointer;
-    margin-right: auto;
+    margin-right: 30px;
 }
 
 .nav__links {
