@@ -40,12 +40,12 @@ header {
 }
 
 .nav__links li a:hover {
-    color: #F9E3A3
+    color: #F3C96E
 }
 
 button {
     padding: 9px 25px;
-    background-color: rgba(249,227,163,1); 
+    background-color: rgba(243,201,110,1); 
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -53,5 +53,5 @@ button {
 }
 
 button:hover {
-    background-color: rgba(209, 138, 7, 0.8);
+    background-color: rgba(243,201,110,0.8); 
 }
