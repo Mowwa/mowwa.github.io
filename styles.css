@@ -1,26 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Vollkorn:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
-body {
-    min-height: 100vh;
-    background: url('img/background.jpg') no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.header {
+header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 100px;
-    background: #90AEBC;
+    padding: 20px 120px;
+    background: #24252A;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,33 +21,37 @@ body {
 }
 
 .logo {
-    font-size: 32px;
+    font-size: 25px;
     color: #fff;
     text-decoration: none;
-    font-weight: 700;
-    cursor: pointer;
+    font-weight: 600;
 }
 
-.navbar a {
-    position: relative;
+nav a {
     font-size: 18px;
     color: #fff;
-    font-weight: 500;
     text-decoration: none;
-    margin-left: 40px
-}
-
-.navbar a::before {
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background: #fff;
+    font-weight: 500;
+    margin-left: 35px;
     transition: .3s;
 }
 
-.navbar a:hover::before {
-    width: 100%;
+nav a:hover,
+nav a.active {
+    color: #0ef;
+} 
+
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #28292E;
+    font-size: 100px;
+    color: #fff;
+    font-weight: 700;
+}
+
+section:nth-child(odd) {
+    background: #2F3035;  
 }
