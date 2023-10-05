@@ -21,6 +21,7 @@ body {
     width: 100%;
     padding: 20px 100px;
     background: #90AEBC;
+    opacity: .5;
     display: flex;
     justify-content: space-between;
     align-items: center;
