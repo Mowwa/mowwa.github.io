@@ -43,7 +43,7 @@ nav a::before {
     left: 0%;
     width: 0%;
     height: 2px;
-    background: #fff;
+    background: #C236AD;
     transition: 0.3s;
 }
 
@@ -54,7 +54,7 @@ nav a:hover::before {
 
 nav a:hover,
 nav a.active {
-    color: #0ef;
+    color: #F1BB01;
 } 
 
 section {
